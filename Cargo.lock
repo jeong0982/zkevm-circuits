@@ -1059,7 +1059,7 @@ dependencies = [
 [[package]]
 name = "ecc"
 version = "0.1.0"
-source = "git+https://github.com/appliedzkp/halo2wrong?rev=92b96893b5699ff40723e201a2416313aeafd267#92b96893b5699ff40723e201a2416313aeafd267"
+source = "git+https://github.com/appliedzkp/halo2wrong?tag=v2022_05_13#92b96893b5699ff40723e201a2416313aeafd267"
 dependencies = [
  "cfg-if 0.1.10",
  "group 0.11.0",
@@ -1074,7 +1074,7 @@ dependencies = [
 [[package]]
 name = "ecdsa"
 version = "0.1.0"
-source = "git+https://github.com/appliedzkp/halo2wrong?rev=92b96893b5699ff40723e201a2416313aeafd267#92b96893b5699ff40723e201a2416313aeafd267"
+source = "git+https://github.com/appliedzkp/halo2wrong?tag=v2022_05_13#92b96893b5699ff40723e201a2416313aeafd267"
 dependencies = [
  "cfg-if 0.1.10",
  "ecc",
@@ -1879,7 +1879,7 @@ dependencies = [
 [[package]]
 name = "halo2wrong"
 version = "0.1.0"
-source = "git+https://github.com/appliedzkp/halo2wrong?rev=92b96893b5699ff40723e201a2416313aeafd267#92b96893b5699ff40723e201a2416313aeafd267"
+source = "git+https://github.com/appliedzkp/halo2wrong?tag=v2022_05_13#92b96893b5699ff40723e201a2416313aeafd267"
 dependencies = [
  "cfg-if 0.1.10",
  "halo2_proofs 0.1.0-beta.1",
@@ -2142,7 +2142,7 @@ dependencies = [
 [[package]]
 name = "integer"
 version = "0.1.0"
-source = "git+https://github.com/appliedzkp/halo2wrong?rev=92b96893b5699ff40723e201a2416313aeafd267#92b96893b5699ff40723e201a2416313aeafd267"
+source = "git+https://github.com/appliedzkp/halo2wrong?tag=v2022_05_13#92b96893b5699ff40723e201a2416313aeafd267"
 dependencies = [
  "cfg-if 0.1.10",
  "group 0.11.0",
@@ -2334,7 +2334,7 @@ dependencies = [
 [[package]]
 name = "maingate"
 version = "0.1.0"
-source = "git+https://github.com/appliedzkp/halo2wrong?rev=92b96893b5699ff40723e201a2416313aeafd267#92b96893b5699ff40723e201a2416313aeafd267"
+source = "git+https://github.com/appliedzkp/halo2wrong?tag=v2022_05_13#92b96893b5699ff40723e201a2416313aeafd267"
 dependencies = [
  "cfg-if 0.1.10",
  "group 0.11.0",
@@ -3360,7 +3360,7 @@ dependencies = [
 [[package]]
 name = "secp256k1"
 version = "0.0.1"
-source = "git+https://github.com/appliedzkp/halo2wrong?rev=92b96893b5699ff40723e201a2416313aeafd267#92b96893b5699ff40723e201a2416313aeafd267"
+source = "git+https://github.com/appliedzkp/halo2wrong?tag=v2022_05_13#92b96893b5699ff40723e201a2416313aeafd267"
 dependencies = [
  "blake2b_simd 0.5.11",
  "cfg-if 0.1.10",
