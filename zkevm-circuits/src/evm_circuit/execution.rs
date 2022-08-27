@@ -47,6 +47,7 @@ mod end_block;
 mod end_tx;
 mod error_oog_constant;
 mod error_oog_static_memory;
+mod extcodecopy;
 mod extcodehash;
 mod gas;
 mod gasprice;
@@ -100,6 +101,7 @@ use dup::DupGadget;
 use end_block::EndBlockGadget;
 use end_tx::EndTxGadget;
 use error_oog_constant::ErrorOOGConstantGadget;
+use extcodecopy::ExtcodecopyGadget;
 use extcodehash::ExtcodehashGadget;
 use gas::GasGadget;
 use gasprice::GasPriceGadget;
@@ -212,7 +214,7 @@ pub(crate) struct ExecutionConfig<F> {
     exp_gadget: DummyGadget<F, 2, 1, { ExecutionState::EXP }>,
     sar_gadget: DummyGadget<F, 2, 1, { ExecutionState::SAR }>,
     extcodesize_gadget: DummyGadget<F, 1, 1, { ExecutionState::EXTCODESIZE }>,
-    extcodecopy_gadget: DummyGadget<F, 4, 0, { ExecutionState::EXTCODECOPY }>,
+    extcodecopy_gadget: ExtcodecopyGadget<F>,
     returndatasize_gadget: DummyGadget<F, 0, 1, { ExecutionState::RETURNDATASIZE }>,
     returndatacopy_gadget: DummyGadget<F, 3, 0, { ExecutionState::RETURNDATACOPY }>,
     create_gadget: DummyGadget<F, 3, 1, { ExecutionState::CREATE }>,
